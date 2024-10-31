@@ -1,62 +1,23 @@
-# FizzBuzz Kata
+# Proyecto FizzBuzz
+Este proyecto implementa el juego de FizzBuzz en Java, determinando si un número es divisible por 3, 5, ambos, o ninguno, y devolviendo Fizz, Buzz, FizzBuzz o el número mismo como cadena. Incluye pruebas unitarias para validar el comportamiento de esta lógica.
 
-### 🎥 Objetivos
+## Descripción
+Reglas de FizzBuzz:
 
-El objetivo de esta kata es conocer los principios básicos de un lenguaje y cómo hacer test automáticos.
+- Si el número es divisible por 3, retorna "Fizz".
+- Si es divisible por 5, retorna "Buzz".
+- Si es divisible por ambos, retorna "FizzBuzz".
+- Si no es divisible ni por 3 ni por 5, retorna el número como cadena.
 
-### ⚙️ Requisitos
+## Estructura del Proyecto
+- **Fizzbuzz**: Clase principal con el método `checkNumber`, que implementa la lógica de FizzBuzz.
+- **FizzbuzzTest**: Clase de prueba que usa JUnit para verificar `checkNumber` en distintos casos.
 
-Hay que usar TDD. Recuerda:
+## Instalación
+- Requiere Java JDK (versión 8+).
+- Maven para gestionar dependencias (o un IDE como IntelliJ con JUnit configurado).
 
-<aside>
-🚧
-
-**Test → Red → Green → Refactor 🔁**
-
-</aside>
-
-- No puedes escribir código sin un test que falle.
-- No puedes escribir nuevos tests que no fallen.
-- Escribe siempre la solución más sencilla que haga pasar los tests. Refactoriza después.
-
-### ⚙️ Requisitos Funcionales
-
-- **Ejemplo Java:**
-
-    ```java
-    @Test
-    void test() {
-    
-    }
-    ```
-
-
-- Escribe un programa/función/clase que, como parámetro, reciba un número del 1 al 100 y devuelva:
-    - Para múltiplos de tres, devuelva una string: `Fizz`
-
-      en lugar del número
-
-    - Para los múltiplos de cinco, devuelva una string: `Buzz`
-
-      en lugar del número
-
-    - Para números que son múltiplos de tres y cinco, devuelva una string: `FizzBuzz`
-
-      en lugar del número
-
-    - Por supuesto.. para números que no son múltiplos de tres y cinco, debe devolver el mismo numero.
-
-- Escribe una función que reciba una lista de números y un número:
-    - La función devolverá otro array con todos los números del la lista inicial divisibles por el número que le hemos pasado por parámetro
-
-- Escribe una función que reciba un array de objetos ‘usuario’ que tenga el nombre y la edad:
-    - la función debe devolver otro array con los usuarios mayores de edad
-
-
-### ✓ Preguntas de análisis
-
-> Paginas recomendadas
->
-- https://kata-log.rocks/fizz-buzz-kata
-- https://www.codewars.com/
-- https://codingdojo.org/kata/# fizzbuzz
+### Clona el repositorio:
+```bash
+git clone <URL_DE_TU_REPOSITORIO>
+cd nombre-del-repositorio
