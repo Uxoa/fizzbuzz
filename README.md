@@ -19,5 +19,5 @@ Reglas de FizzBuzz:
 
 ### Clona el repositorio:
 ```bash
-git clone <URL_DE_TU_REPOSITORIO>
+git clone https://github.com/Uxoa/fizzbuzz.git
 cd nombre-del-repositorio
