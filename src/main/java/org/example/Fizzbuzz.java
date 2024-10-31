@@ -3,19 +3,19 @@ package org.example;
 public class Fizzbuzz {
 
     public String checkNumber(int number) {
-        // Verifica si el número es divisible por 3 y 5 primero
+        // Devolver el número es divisible por 3 y 5 primero
         if (number % 3 == 0 && number % 5 == 0) {
             return "FizzBuzz";
         }
-        // Verifica si el número es divisible solo por 3
+        // Devolver Fizz si el número es divisible solo por 3
         if (number % 3 == 0) {
             return "Fizz";
         }
-        // Verifica si el número es divisible solo por 5
+        // devolver Buzz si el número es divisible solo por 5
         if (number % 5 == 0) {
             return "Buzz";
         }
-        // Si no es divisible ni por 3 ni por 5, devuelve el número en formato String
-        return Integer.toString(number); // Convierte el número a String
+        // para números que no son múltiplos de tres y cinco, debe devolver el mismo numero en formato String
+        return Integer.toString(number);
     }
 }

@@ -55,6 +55,6 @@ public class FizzbuzzTest {
         String result = fizzbuzz.checkNumber(16);
 
         // Then
-        assertEquals("16", result); // Compara como String
+        assertEquals("16", result);
     }
 }
